@@ -1,0 +1,60 @@
+/* Flickr widget */
+.flickr_badge_wrapper {
+    /*margin: 9px -20px -9px 0px;*/
+    overflow: hidden;
+}
+
+.flickr_badge_wrapper div {
+    float: left;
+    /*margin: 0 2px 3px 0;*/
+}
+
+.flickr_badge_image {
+    background: none repeat scroll 0 0 transparent;
+    float: left;
+	/*width: 100px;
+    height: 100px;*/
+    margin: 0 10px 10px 0;
+    padding: 0;
+    width:60px;
+}
+
+.flickr_badge_wrapper div a {
+    border: 1px solid #555;
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0px;
+   /*width: 65px;
+	height: 65px;*/
+	
+	transition:all 0.3s ease 0s;
+	-moz-transition:all 0.3s ease 0s;
+	-webkit-transition:all 0.3s ease 0s;
+	-o-transition:all 0.3s ease 0s;
+	-ms-transition:all 0.3s ease 0s;
+}
+
+.flickr_badge_wrapper div a img {
+	transition:all 0.3s ease 0s;
+	-moz-transition:all 0.3s ease 0s;
+	-webkit-transition:all 0.3s ease 0s;
+	-o-transition:all 0.3s ease 0s;
+	-ms-transition:all 0.3s ease 0s;
+}
+
+.flickr_badge_wrapper div a img:hover {
+	opacity:.5;	
+}
+
+
+
+.flickr_badge_image img {
+    height: 100%;
+    margin: 0;
+    max-height: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}

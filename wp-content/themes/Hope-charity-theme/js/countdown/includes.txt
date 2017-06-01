@@ -1,0 +1,9 @@
+<script src="js/jquery.knob.js"></script>
+<script src="js/jquery.ccountdown.js"></script>
+<script src="js/init.js"></script>
+
+//INIT METHOD
+<script>
+//enter the count down date using the format year/month/day
+$(".ccounter").ccountdown(2013,12,25);
+</script>

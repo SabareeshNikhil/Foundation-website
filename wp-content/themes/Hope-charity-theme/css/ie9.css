@@ -1,0 +1,10 @@
+@charset "utf-8";
+/* CSS Document */
+
+.flexslider { 
+	position: relative; 
+	zoom: 1; 
+	z-index:99;
+	margin-top:auto !important;
+	float:none !important;
+}

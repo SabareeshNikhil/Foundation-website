@@ -1,0 +1,60 @@
+<wpml-config>
+    <admin-texts>
+        <key name="hope_options">
+            <key name="opt-pulse-slides">
+                <key name="0">
+                  <key name="title" />
+                  <key name="description" />
+                  <key name="url" />
+                </key>
+                <key name="1">
+                  <key name="title" />
+                  <key name="description" />
+                  <key name="url" />
+                </key>
+                <key name="2">
+                  <key name="title" />
+                  <key name="description" />
+                  <key name="url" />
+                </key>
+                <key name="3">
+                  <key name="title" />
+                  <key name="description" />
+                  <key name="url" />
+                </key>
+                <key name="4">
+                  <key name="title" />
+                  <key name="description" />
+                  <key name="url" />
+                </key>
+                <key name="5">
+                  <key name="title" />
+                  <key name="description" />
+                  <key name="url" />
+                </key>
+            </key>
+			<key name="opt-client-slides">
+                <key name="0">
+                  <key name="title" />
+                  <key name="description" />
+                  <key name="url" />
+                </key>
+                <key name="1">
+                  <key name="title" />
+                  <key name="description" />
+                  <key name="url" />
+                </key>
+                <key name="2">
+                  <key name="title" />
+                  <key name="description" />
+                  <key name="url" />
+                </key>
+                <key name="3">
+                  <key name="title" />
+                  <key name="description" />
+                  <key name="url" />
+                </key>
+            </key>			
+        </key>
+    </admin-texts>
+</wpml-config>

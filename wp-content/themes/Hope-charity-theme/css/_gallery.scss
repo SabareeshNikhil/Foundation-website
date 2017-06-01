@@ -1,0 +1,359 @@
+.pm-single-blog-post-categories-container {
+	border-top:3px solid #e9e9e9;
+	width:auto;
+	height:auto;
+	overflow:hidden;
+	margin:15px 0 30px 0;
+	padding-top:15px;
+	clear:both;
+}
+
+.pm-single-blog-post-categories {
+	margin:0;
+	padding:0;
+	list-style:none;
+	overflow:hidden;	
+	float:left;
+}
+
+.pm-single-blog-post-categories li:before {
+    content: "" !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.pm-single-blog-post-categories li {
+	float:left;
+	margin-right:5px;	
+}
+
+.pm-single-blog-post-categories .icon i {
+	color: #DBC164;
+    font-family: 'FontAwesome';
+    font-size: 14px;
+}
+
+.pm-single-blog-post-categories li a {
+	color: #969696;
+    font-size: 14px;
+	font-weight:300;	
+	
+	transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	-webkit-transition:all 0.3s;
+	-o-transition:all 0.3s;
+}
+
+.pm-single-blog-post-categories li a:hover {
+	color: #2C5C82;	
+}
+
+.pm-single-blog-post-tags {
+	margin:0;
+	padding:0;
+	list-style:none;
+	overflow:hidden;
+	float:right;	
+}
+
+.pm-single-blog-post-tags li:before {
+    content: "" !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.pm-single-blog-post-tags li {
+	float:left;
+	margin-right:5px;	
+}
+
+.pm-single-blog-post-tags .icon i {
+	color: #DBC164;
+    font-family: 'FontAwesome';
+    font-size: 14px;
+}
+
+.pm-single-blog-post-tags li a {
+	color: #969696;
+    font-size: 14px;
+	font-weight:300;
+	
+	transition:all 0.3s;
+	-moz-transition:all 0.3s;
+	-webkit-transition:all 0.3s;
+	-o-transition:all 0.3s;
+}
+
+.pm-single-blog-post-tags li a:hover {
+	color: #2C5C82;	
+}
+
+.pm-rounded-btn {
+    display: inline-block;
+    height: auto;
+    width: auto;
+}
+
+.pm-rounded-btn a {
+    background-color: white;
+    border: 3px solid #d9d9d9;
+    border-radius: 99px;
+    color: #9e9e9e;
+    display: inline-block;
+    font-family: "Open sans";
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 0;
+    min-width: 100px;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.4s ease 0s;
+}
+
+/* 28. Isotope filter system */
+#pm-isotope-item-container {
+	width:100%;	
+}
+
+.pm-isotope-filter-container {
+	width:100%;
+}
+
+.pm-isotope-filter-system {
+	list-style:none;
+	padding:0;
+	margin:0;
+	display:table;
+	margin:0 auto;	
+	width:100%;
+	
+	transition:all 0.4s;
+	-moz-transition:all 0.4s;
+	-webkit-transition:all 0.4s;
+	-o-transition:all 0.4s;
+}
+
+.pm-isotope-filter-system li:before {
+	content:"";
+	padding:0;
+	margin:0;	
+}
+
+.pm-isotope-filter-system li {
+	float:none;
+	display:inline;
+	margin-right:5px;	
+}
+
+.pm-isotope-filter-system li i {
+    float: right;
+    font-family: 'FontAwesome';
+    margin-top: 14px;
+	position:relative;
+	right:35px;
+}
+
+.pm-isotope-filter-system li:last-child {
+	margin-right:0px;	
+}
+
+.pm-isotope-filter-system li a {
+	font-size:12px;
+	color:#666;
+	text-transform:uppercase;
+	display:block;
+	
+	transition:all 0.4s;
+	-moz-transition:all 0.4s;
+	-webkit-transition:all 0.4s;
+	-o-transition:all 0.4s;
+}
+
+.pm-isotope-filter-system-expand {
+	background-color:#EF5438;
+	color:white !important;
+	font-size:12px;
+	line-height:40px;
+	padding:0 20px;
+	text-transform:uppercase;
+	display:none !important;
+	visibility:hidden;
+	float:none;
+}
+
+.pm-isotope-filter-system-expand:hover {
+	cursor:pointer;	
+}
+
+.pm-isotope-page-count {
+	text-transform:uppercase;
+	color:#777777;
+	font-size:12px;
+	margin-bottom:0px;
+	margin-top:15px;
+}
+
+/* 35. Gallery item */
+.pm-gallery-item-container {
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	text-align:center;
+	position:relative;
+	margin-bottom:30px;
+}
+
+.pm-gallery-item-img-container {
+	position:relative;
+	width:100%;
+	min-height:310px;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center;
+}
+
+.pm-gallery-item-img-container span {
+	display:block;
+	width:100%;
+	height:100%;
+	position:absolute;
+	z-index:10;	
+	background-color:rgba(0,0,0,.8);
+	opacity:0;	
+
+}
+
+.pm-gallery-item-desc {
+	padding:15px 0 0;	
+}
+
+.pm-gallery-item-title {
+    padding:8px 15px;
+	max-width:280px;
+	
+	position:absolute;
+	top:38px;
+	z-index:100;
+	left:0px;
+	text-align:left;
+	
+	border-radius:0 99px 99px 0;
+}
+
+
+.pm-gallery-item-title p {
+	margin:0px;
+	color:white;
+	font-weight:bold;
+	text-transform:uppercase;
+	line-height:22px;
+}
+
+.pm-gallery-item-excerpt {
+	margin-top:15px;	
+	margin-bottom:15px;	
+}
+
+.pm-gallery-item-hover-btn:before {
+    font-family:'FontAwesome';
+	font-size:18px;
+	color:white;
+	position:absolute;
+	top:3px;
+	left:2px;
+	content:'\f078';
+	
+	
+}
+
+.pm-gallery-item-hover-btn {
+    font-size: 18px;
+    position: absolute;
+    right: 0px !important;
+    text-align: center;
+    z-index: 999;
+	margin:0px;
+	padding:0px;
+	bottom: 0px;
+	
+	@include transition(border-color, 0.4s);
+	
+	border-right:35px solid #DBC164;
+    border-top:35px solid transparent;
+    border-left:35px solid transparent;
+    border-bottom:35px solid #DBC164;
+}
+
+.pm-gallery-item-hover-btn:hover {
+	cursor:pointer;	
+	border-right:35px solid #333;
+    border-top:35px solid transparent;
+    border-left:35px solid transparent;
+    border-bottom:35px solid #333;
+}
+
+.pm-gallery-item-caption {
+	position:absolute;
+	max-width:300px;
+	height:auto;
+	top:20px;
+	left:25px;	
+	z-index:200;
+	opacity:0;
+}
+
+.pm-gallery-item-caption p {
+	color:white;
+	font-size:14px;	
+	margin:0px;
+	text-align:left;
+	line-height:26px !important;
+}
+
+.pm-gallery-item-btns {
+	list-style:none;
+	padding:0px;
+	margin:0;
+	position:absolute;
+	bottom:20px;
+	right:-200px;
+	z-index:300;
+	opacity:0;
+}
+
+.pm-gallery-item-btns li:before {
+	content:"";
+	padding:0;
+	margin:0;
+}
+
+.pm-gallery-item-btns li {
+	float:left;
+	margin-right:1px;	
+}
+
+.pm-gallery-item-btns li a {
+	background-color:#DBC164;
+	text-align:center;
+	font-family:'FontAwesome';
+	color:white;
+	display:block;
+	padding: 22px 15px;
+	line-height:0;
+	
+	border-radius:4px;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	
+	transition:all .4s;
+	-moz-transition:all .4s;
+	-webkit-transition:all .4s;
+	-o-transition:all .4s;
+}
+
+.pm-gallery-item-btns li a:hover {
+	background-color:#2B5C84;
+	cursor:pointer;	
+}

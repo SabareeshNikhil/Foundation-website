@@ -1,0 +1,173 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Quick contact form */
+.pm_quickcontact_widget {
+	clear:both;
+	overflow:hidden;
+	margin-bottom:20px;	
+}
+
+.quick_contact_field {
+    background-color: #222222 !important;
+    border: 1px solid #333333 !important;
+    border-radius: 4px 4px 4px 4px !important;
+    color: #FFFFFF !important;
+    float: left !important;
+    font-size: 12px !important;
+    height: 30px !important;
+    line-height: 20px !important;
+    padding: 4px 6px !important;
+    vertical-align: middle !important;
+    width: 95% !important;
+	box-shadow:none !important;
+	
+	@include transition(all, 0.4s);
+}
+
+.quick_contact_textarea {
+    border-radius: 4px 4px 4px 4px !important;
+    color: #aaa !important;
+    float: left !important;
+    font-size: 12px !important;
+    height: 70px !important;
+    line-height: 20px !important;
+    padding: 4px 6px !important;
+    vertical-align: middle !important;
+    width: 95% !important;
+	background-color: #222222 !important;
+    border: 1px solid #333333 !important;
+	box-shadow:none !important;
+	
+	@include transition(all, 0.4s);
+}
+
+.quick_contact_submit {
+    border: 0 solid white;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 9px 15px;
+    text-transform: uppercase;
+    transition: all 0.5s ease 0s;
+	transition:all 0.3s ease 0s;
+	float:left;
+	margin-right:20px;
+	margin-left:2px;
+}
+
+.quick_contact_submit:hover {
+	color:white !important;
+}
+
+.pm-sidebar .pm-ln-form-response {
+	color:#333;
+}	
+
+.pm-ln-form-response {
+    color: white;
+    float: left;
+    font-size: 12px;
+    margin-top: 7px;
+    width: auto;
+}
+
+/* Newsletter sign up form */
+.newsletter_field {
+    background-color: #222222 !important;
+    border: 1px solid #333333 !important;
+    border-radius: 4px 4px 4px 4px !important;
+    color: #FFFFFF !important;
+    float: left !important;
+    font-size: 12px !important;
+    height: 20px !important;
+    line-height: 20px !important;
+    padding: 4px 6px !important;
+    vertical-align: middle !important;
+    width: 95% !important;
+	box-shadow:none !important;
+}
+
+.newsletter_submit {
+    border: 0 solid white;
+    border-radius: 4px 4px 4px 4px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 9px 15px;
+    text-transform: uppercase;
+    transition: all 0.5s ease 0s;
+	background-color:#ACDB05;
+	color:black !important;
+	transition:all 0.3s ease 0s;
+	margin-left:2px;
+}
+
+.newsletter_submit:hover {
+	background-color:#666 !important;
+	color:white !important;
+}
+
+/* Events Widget */
+.pm-events-widget {
+	margin:0;
+	padding:0;
+	list-style:none;	
+	overflow:hidden;
+}
+
+.pm-events-widget li {
+    margin-bottom: 25px;
+    overflow: hidden;
+}
+
+.pm-events-widget-date {
+	width:70px;
+	height:auto;
+	float:left;
+	text-align:center;
+	margin-right:10px;
+}
+
+.pm-events-widget-date i {
+	font-size:60px;	
+	color:#00B7C2;
+}
+
+.pm-events-widget-date p {
+	font-size:24px;
+	margin-bottom:2px !important;
+	text-transform:uppercase;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:300;
+	margin-top:10px !important;
+}
+
+.pm-events-widget-date p b {
+	font-weight:700;
+}
+
+.pm-events-widget-info {
+	float:left;
+	width:70%;
+}
+
+.pm-events-widget-info p b {
+	font-size:14px;
+}
+
+.pm-events-widget-info p {
+	margin-top:0px;	
+	font-size:12px;
+	margin-bottom:2px;
+	line-height:22px;
+}
+
+.pm-events-widget-info a {
+	margin-top:6px;	
+}
+
+.pm-events-widget-info a span {
+	padding:3px 15px 0 20px;
+}

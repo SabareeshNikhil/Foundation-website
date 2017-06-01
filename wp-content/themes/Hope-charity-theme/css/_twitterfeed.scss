@@ -1,0 +1,22 @@
+/* Twitter widget */
+.tweet_list li {
+    background: url("img/twitter_icon.png") no-repeat scroll 8px 15px transparent;
+    padding: 10px 10px 11px 39px;
+	color:white;
+	font-size:12px !important;
+	line-height:18px;
+}
+
+.tweet_list li a {
+    color: #ACDB05;
+}
+
+.tweet_list {
+	list-style:none;
+	padding:0;
+	margin:0;	
+}   
+
+.tweet_list li .interact a {
+	margin-right:10px;	
+}

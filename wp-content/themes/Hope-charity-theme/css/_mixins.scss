@@ -1,0 +1,91 @@
+@mixin transition($property, $numValue) {
+	transition:$property $numValue;
+	-moz-transition:$property $numValue;
+	-webkit-transition:$property $numValue;
+	-o-transition:$property $numValue;
+}
+
+@mixin borderRadius($v1, $v2, $v3, $v4) {
+	border-radius:$v1 $v2 $v3 $v4;
+	-webkit-border-radius:$v1 $v2 $v3 $v4;
+	-o-border-radius:$v1 $v2 $v3 $v4;
+}
+
+@mixin borderRadiusAll($v) {
+	border-radius:$v;
+	-webkit-border-radius:$v;
+	-o-border-radius:$v;
+}
+
+@mixin rotate($v) {
+	-webkit-transform:rotate($v);
+	-moz-transform:rotate($v);
+	-ms-transform:rotate($v);
+	-o-transform:rotate($v);
+	transform:rotate($v);
+}
+
+@mixin scaleAll($v) {
+	-webkit-transform:scale($v);
+	-moz-transform:scale($v);
+	-ms-transform:scale($v);
+	-o-transform:scale($v);
+	transform:scale($v);
+}
+
+@mixin translateZ($v) {
+	-moz-transform:translateZ($v);
+	-webkit-transform:translateZ($v);
+	-ms-transform:translateZ($v);
+	-o-transform:translateZ($v);
+	transform:translateZ($v);
+}
+
+/* Media Query Mixins */
+@mixin xl-screen {
+	
+	@media only screen and (min-width: 1200px) and (max-width: 5000px) {
+		@content;	
+	}
+		
+}
+
+@mixin lg-screen {
+	
+	@media only screen and (min-width: 991px) and (max-width: 1200px) {
+		@content;	
+	}
+		
+}
+
+@mixin md-screen {
+	
+	@media only screen and (min-width: 767px) and (max-width: 991px) {
+		@content;	
+	}
+		
+}
+
+@mixin sm-screen {
+	
+	@media only screen and (max-width: 767px) {
+		@content;	
+	}
+		
+}
+
+@mixin xs-screen {
+	
+	@media (max-width: 480px) {
+		@content;	
+	}
+		
+}
+
+@mixin ios-screen {
+	
+	@media (max-width: 320px) {
+		@content;	
+	}
+		
+}

@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+.container, .navbar-static-top .container, .navbar-fixed-top .container, .navbar-fixed-bottom .container {
+	width: 1170px;	
+}
+.span12 {
+	width: 1170px;
+}
+.span11 {
+	width: 1070px;
+}
+.span10 {
+	width: 970px;
+}
+.span9 {
+	width: 870px;
+}
+.span8 {
+	width: 770px;
+}
+.span7 {
+	width: 670px;
+}
+.span6 {
+	width: 570px;
+}
+.span5 {
+	width: 470px;
+}
+.span4 {
+	width: 370px;
+}
+.span3 {
+	width: 270px;
+}
+.span2 {
+	width: 170px;
+}
+.span1 {
+	width: 70px;
+}
+

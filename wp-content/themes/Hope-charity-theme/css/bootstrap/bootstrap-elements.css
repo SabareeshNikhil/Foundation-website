@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Accordion overrides */
+.accordion-inner {
+    border-top: 0 solid #E5E5E5;
+    padding: 20px 15px 30px;
+}
+
+.accordion-group {
+    border: 0px solid #E5E5E5;
+    border-radius: 4px 4px 4px 4px;
+    margin-bottom: 2px;
+}
+
+
+.accordion-heading .accordion-toggle {
+    /*background-color:#f8f8f8;*/
+    display: block;
+    font-size: 26px;
+    font-weight: normal;
+    padding: 15px 15px;
+}

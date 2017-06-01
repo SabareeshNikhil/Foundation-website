@@ -1,0 +1,342 @@
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"X-Generator: Poedit 1.5.5\n"
+
+#. Text in echo
+#: translations.php:1
+msgid "AUD"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "Amount placeholder: "
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "Australian Dollar"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "CAD"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "Canadian Dollar"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid ""
+"Configure these settings for testing item purchases and/or donations through "
+"your Sandbox PayPal account."
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "Currency symbol:"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "Dollar - $"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "Donation"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "EUR"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid ""
+"Enter a placeholder for the amount textfield. (ex. Enter a donation amount)"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid ""
+"Enter a product identifier. (Ex. Product Code or SKU #). <b>This applies to "
+"products only.</b>"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid ""
+"Enter a return URL for donations (could be a Thank You page). PayPal will "
+"redirect visitors to this page after completing a donation."
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid ""
+"Enter a return URL for product purchases (could be a Thank You page). PayPal "
+"will redirect visitors to this page after completing a payment."
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid ""
+"Enter a width for the PayPal item container. <b>This applies to both "
+"products and donations and only if responsive is set to NO.</b>"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid ""
+"Enter the email address that corresponds to your PayPal Merchant sandbox "
+"account. All transactions will be sent to this dummy account."
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "Euro - &euro;"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "Euro Dollar"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "GBP"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "HKD"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "In Stock"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "JPY"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "Japanese Yen"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "Japanese Yen - &yen;"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "NZD"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "New Zealand Dollar"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "No"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "Not Available"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "Out of Stock"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "PayPal Currency:"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "PayPal Sandbox Options:"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "PayPal email address:"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "Payment Option 1"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "Payment Option 2"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "Payment Option 3"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "Payment Option 4"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "Payment Option 5"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "Payment Option 6"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "Pound Sterling"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "Pound Sterling - &pound;"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "Pre-Order"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "Product"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "Product Code or SKU #:"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "Select the currency symbol that corresponds to the set currency."
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid ""
+"Set this to <b>YES</b> if you want to show other amount text box to your "
+"visitors so they can enter a custom donation amount."
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid ""
+"Set this to YES if you are running this plug-in in a responsive theme. "
+"Setting this to YES will set the item container to a width of 100%. <b>This "
+"applies to both products and donations.</b>"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid ""
+"Set this to YES if you want to send payments to your PayPal Merchant Sandbox "
+"account."
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "Shortcode"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "Show Other Amount:"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "This is the Paypal Email address where the payments will be sent to."
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid ""
+"This is the currency for your visitors to make Payments or Donations in."
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "US Dollar"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "USD"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "Update PayPal Settings"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "Yes"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "dollar"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "enter text if required"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "euro"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "japanese"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "pound"
+msgstr ""
+
+#. Text in echo
+#: translations.php:1
+msgid "price"
+msgstr ""

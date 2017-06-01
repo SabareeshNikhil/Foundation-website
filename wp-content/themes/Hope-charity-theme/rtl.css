@@ -1,0 +1,19 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	direction:rtl;
+	unicode-bidi:embed;
+}
+
+.owl-carousel {
+    direction: ltr;
+}
+
+.flexslider {
+	direction:ltr;	
+}
+
+[class*="span"] {
+    direction: ltr;
+}

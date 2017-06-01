@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+/* Custom Meta Options */
+.pm-admin-upload-field, .pm-slider-system-upload-field {
+	width:75%;
+	padding:5px;
+}
+
+.pm-featured-image-upload-field {
+	width:75%;
+	padding:5px;
+}
+
+.pm-admin-text-field {
+	width:100%;
+	padding:8px;
+	height:35px;
+}
+
+.pm-admin-date-field {
+	width:40%;
+	padding:8px;
+	height:35px;
+	border:1px solid #DDDDDD;	
+}
+
+.pm-admin-upload-field-preview, .pm-featured-image-preview, .pm-admin-gallery-image-preview {
+	max-width:50%;
+	height:auto;
+	padding:10px 0;	
+}
+
+.pm-admin-upload-staff-preview {
+	max-width:40%;
+	height:auto;
+	padding:10px 0;	
+}
+
+.pm-admin-upload-field-preview img, .pm-admin-upload-staff-preview img, .pm-featured-image-preview img, .pm-admin-gallery-image-preview img {
+	width:100%;
+}
+
+
+.pm-user-admin-image-preview-container {
+	max-width:30%;	
+}
+
+.pm-user-admin-image-preview-container img {
+	width:100%;	
+}
+
+/* theme verify page */
+.pm_ln_micro_themes_purchase_code {
+	display:none;		
+}
+
+.pm_ln_micro_themes_purchase_code.active {
+	display:block;		
+}
+
+/* theme updates section */
+.wpmm-wrapper #content {
+    width: 90%;
+}
+.wpmm-wrapper .wrapper-cell {
+    display: table-cell;
+}
+
+.wpmm-wrapper #sidebar {
+    padding: 0 0 0 20px;
+    width: 280px;
+}
+
+.wpmm-wrapper #sidebar .sidebar_box {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+    line-height: 1;
+    margin-bottom: 20px;
+    min-width: 255px;
+    padding: 0;
+}
+
+.wpmm-wrapper #sidebar .sidebar_box h3 {
+    border-bottom: 1px solid #ececec;
+    margin: 0;
+    padding: 8px 12px;
+}
+
+.wpmm-wrapper #sidebar .sidebar_box .inside {
+    font-size: 13px;
+    line-height: 1.4em;
+    margin: 6px 0 0;
+    padding: 0 12px 12px;
+}
+#sidebar .resources_box ul, #sidebar .themes_box ul {
+    margin-bottom: -15px;
+    margin-top: 10px;
+}
+
+#sidebar .resources_box li, #sidebar .themes_box li {
+    margin-bottom: 10px;
+}
+
+.pm-admin-theme-verify-text-field {
+	width:50%;	
+}
